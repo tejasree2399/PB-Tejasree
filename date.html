@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Data Object & Methods</title>
+</head>
+<body>
+    <h1>JavaScript Data &  Methods</h1>
+    <script>
+        document.write("<h2>Creating Dates<h2>");
+            let now = new Date();
+            document.write("Current Date & time: " + now + "<br></br>");
+            let specificDate = new Date(2025, 7, 13); // month is 0-based
+            document.write("specific Date: " + specificDate + "<br></br>");
+            let dateFromString = new Date("2025-08-13T10:30:00");
+            document.write("From string: " + dateFromString + "<br></br>");
+            let timestampDate = new Date(172353000000);
+            document.write("From TimeStamp: " + timeStampDate + "<br></br>");
+            document.write("<h2>Getting Date Components</h2>");
+            document.write("year: " + now.getFullYear() + "<br>");
+            document.write("Month (0-11): " + now.getMonth() + "<br>");
+            document.write("Date : " + now.getDate() + "<br>");
+            document.write("Day (0=Sunday): " + now.getDay() + "<br>");
+            document.write("Minutes: " + now.getMinutes() + "<br>");
+            document.write("Seconds: " + now.getSeconds() + "<br>");
+            document.write("Milliseconds: " + now.getMilliseconds() + "<br>");
+            document.write("M: " + now.getMinutes() + "<br>");
+
+
+            let d = new date();
+            d.setFullYear(2030);
+            d.setMonth(5);
+            d.setDate(20);
+            d.setHours(2);
+            d.setMinutes(45);
+            document.write("Modified date: " + d + "<br></br>");
+            document.write("<h2>Formatting dates</h2>");
+            document.write("toDateString(): " + now.toDateString() + "<br>");
+            document.write("toLocalDateString(): " + now.toLocalDateString() + "<br>");
+            document.write("toTimeString(): " + now.toTimeString() + "<br>");
+            document.write("toLocalTimeString(): " + now.toLocalTimeString() + "<br>");
+            document.write("toISOString(): " + now.toISOString() + "<br>");
+            document.write("<h2>Date.now()</h2>");
+            document.write("Current Timestamp: " + Date.now)
+    </script>
+</body>
+</html>

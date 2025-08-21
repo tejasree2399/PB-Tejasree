@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>griddemo</title>
+    <style>
+         .container{
+            display:grid;
+            grid-row:10% 70% 10% 10%;
+            grid-column:35% 30% 35%;
+            height: 100vh;
+         }
+         .top{
+            height: 10vh;
+            grid-row: 1/2;
+            grid-column: 1/4;
+            background-color: aqua;
+         }
+         .search
+         {
+            height: 80vh;
+            grid-row:
+         }
+         .lt
+         {
+            height: 80vh;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            background-color: rgb(239, 36, 222);
+         }
+         .main
+         {
+            height: 80vh;
+            grid-row: 2/3;
+            grid-column: 2/3;
+            background-color: rgb(110, 232, 101);
+         }
+         .right
+         {
+            height: 80vh;
+            grid-row: 2/3;
+            grid-column: 2/3;
+            background-color: rgb(223, 213, 99);
+         }
+         .ft
+         {
+            height: 10vh;
+            grid-row: 2/3;
+            grid-column: 1/4;
+            background-color: rgb(146, 160, 238);
+         }
+
+
+    </style>
+</head>
+<body>
+         <div class="container">
+        <div class="search">search</div>
+        <div class="top">Header</div>
+        <div class="lt">left side bar</div>
+        <div class="main">main</div>
+        <div class="right">right side bar</div>
+        <div class="ft">footer</div>
+    </div>
+    
+</body>
+</html>

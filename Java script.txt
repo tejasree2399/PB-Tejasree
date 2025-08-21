@@ -1,0 +1,4 @@
+Java script :
+high level, interpreted, scripting language
+object based language
+window ,console , document , local storage ,session storage , cookies
